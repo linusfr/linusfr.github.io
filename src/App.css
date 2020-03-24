@@ -1,0 +1,12 @@
+/* components */
+@import './Components/Home/HomeComponent.css';
+@import './Components/About/AboutComponent.css';
+@import './Components/Projects/ProjectsComponent.css';
+
+.white {
+    color: whitesmoke;
+}
+
+.container-fluid {
+    padding: 0;
+}
