@@ -14,6 +14,8 @@ import {
 import HomeComponent from './Components/Home/HomeComponent'
 import AboutComponent from './Components/About/AboutComponent'
 import ProjectsComponent from './Components/Projects/ProjectsComponent'
+import Logo from './Images/logo.Bu9v87'
+import Image from 'react-bootstrap/Image'
 
 function App() {
     return (
@@ -22,9 +24,9 @@ function App() {
                 <Container fluid>
                     <Row>
                         <Col>
-                            <Navbar bg='dark' variant='dark' expand='lg'>
+                            <Navbar bg='light' variant='light' expand='lg'>
                                 <Navbar.Brand href='/home'>
-                                    Linus Frotscher
+                                    <Image src={Logo} className='logo'></Image>
                                 </Navbar.Brand>
                                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                                 <Navbar.Collapse id='basic-navbar-nav'>
