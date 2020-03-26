@@ -7,23 +7,23 @@ export default class AboutComponent extends Component {
         return (
             <div>
                 <Container>
-                    <Row className='dark pdTop newLine flexColumn'>
+                    <Row className='dark flexColumn'>
                         <h4 className='centerText pdTop'>About</h4>
-                        <span className='centerText pdTop'>
-                            Aliqua quis nostrud excepteur laborum. Excepteur
-                            nulla laboris aliquip nulla elit nisi amet
-                            reprehenderit. Eiusmod velit aute fugiat sint sit
-                            labore enim eiusmod mollit. Lorem qui duis
-                            adipisicing qui cupidatat duis do do cillum sint
-                            laboris.
+                        <span className='centerSpan pdTop'>
+                            Hello! I am Linus, nice to meet you!
                         </span>
-                        <span className='centerText'>
-                            Aliqua quis nostrud excepteur laborum. Excepteur
-                            nulla laboris aliquip nulla elit nisi amet
-                            reprehenderit. Eiusmod velit aute fugiat sint sit
-                            labore enim eiusmod mollit. Lorem qui duis
-                            adipisicing qui cupidatat duis do do cillum sint
-                            laboris.
+                        <span className='centerSpan'>
+                            I am a computer science student studying in
+                            Flensburg, Germany.
+                        </span>
+                        <span className='centerSpan'>
+                            During my study we had multiple bigger projects and
+                            I wanted a place where I can show them to others,
+                            thats how I ended up creating this website.
+                        </span>
+                        <span className='centerSpan'>
+                            Under Projects you can find the projects which
+                            pictures and short descriptions for each of them.
                         </span>
                     </Row>
                     <Row className='pdTop'>

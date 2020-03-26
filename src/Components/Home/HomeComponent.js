@@ -8,7 +8,7 @@ export default class HomeComponent extends Component {
         return (
             <div className='imageContainer'>
                 <Container>
-                    <Row className='dark pdTop newLine flexColumn'>
+                    <Row className='dark flexColumn'>
                         <h4 className='centerText pdTop'>
                             Welcome to my Website!
                         </h4>

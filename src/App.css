@@ -13,6 +13,10 @@
     background-color: #f8f9fa;
 }
 
+.centerSpan {
+    margin: 0 auto;
+    width: 60%;
+}
 .container {
     padding: 0;
     margin: 0;
@@ -30,6 +34,9 @@
 
 .pdTop {
     padding-top: 25px;
+}
+.pdBot {
+    padding-bottom: 25px;
 }
 .centerText {
     text-align: center;
