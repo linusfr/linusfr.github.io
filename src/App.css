@@ -46,6 +46,11 @@
     flex-direction: column;
     align-content: center;
 }
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
 .container-fluid {
     padding: 0;
 }
@@ -61,4 +66,31 @@
 }
 .navbar-collapse {
     text-align: right;
+}
+.center {
+    margin: 0 auto;
+}
+.widthPadding {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.icons {
+    font-size: 50px;
+}
+a.nostyle:link {
+    text-decoration: inherit;
+    color: black;
+    cursor: auto;
+}
+
+a.nostyle:hover {
+    text-decoration: inherit;
+    color: black;
+    cursor: pointer;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: black;
+    cursor: auto;
 }
