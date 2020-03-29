@@ -1,9 +1,11 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from 'react'
 import { Container, Row, Image } from 'react-bootstrap'
-import labManagerImg from '../../../Images/labManager.png'
-import labManagerImg2 from '../../../Images/labManager2.png'
-import labManagerImg3 from '../../../Images/labManager3.png'
-import labManagerImg4 from '../../../Images/labManager4.png'
+import labManagerImg from '../../../Images/labManager.PNG'
+import labManagerImg2 from '../../../Images/labManager2.PNG'
+import labManagerImg3 from '../../../Images/labManager3.PNG'
+import labManagerImg4 from '../../../Images/labManager4.PNG'
 
 export default class LabManagerComponent extends Component {
     render() {
@@ -12,48 +14,49 @@ export default class LabManagerComponent extends Component {
                 <Container>
                     <Row className='dark newLine flexColumn'>
                         <div className='flexRow center projectHeader pdTop'>
-                            <h5 className='centerText projectHeader'>Prophy</h5>
+                            <h5 className='centerText projectHeader'>
+                                LabManager
+                            </h5>
                             <a
-                                href='https://github.com/linusfr/prophy'
+                                href='https://github.com/linusfr/labManager'
                                 class='fab fa-github widthPadding nostyle projectHeader'
                                 target='_blank'
                             ></a>
                         </div>
 
                         <span className='centerSpan'>
-                            Prophy is a simple weather app using a weather api
-                            and websockets. The websocket is used to synchronize
-                            usage of the app over multiple browser instances. I
-                            created Prophy as a paper for Web Technologies.
+                            The LabManager can be used to organize students
+                            using a .net Framework Desktop Application. You can
+                            create courses and fill it with labs. The labs can
+                            then be filled with students and managed.
                         </span>
                         <h5 className='centerText pdTop'>Homepage</h5>
                         <span className='centerText'>
-                            Weather overview from your current or the selected
-                            Location
+                            All the Courses the lecturer is holding
                         </span>
                         <span className='newLine centerText pdTop'>
                             <Image className='max100' src={labManagerImg} />
                         </span>
-                        <h5 className='centerText pdTop'>Preview for 5 day</h5>
+                        <h5 className='centerText pdTop'>Course Overview</h5>
                         <span className='centerText'>
-                            Weather for the next 5 days
+                            All the labs for a specific course
                         </span>
                         <span className='newLine centerText pdTop'>
                             <Image className='max100' src={labManagerImg2} />
                         </span>
-                        <h5 className='centerText pdTop'>Detailed Day</h5>
+                        <h5 className='centerText pdTop'>Lab Overview</h5>
                         <span className='centerText'>
-                            You can preview a single day more detailed showing a
-                            graph for the day's temperatures
+                            Displays all the students from the lab. Can be used
+                            to check attendances, tasks, or to edit students
                         </span>
                         <span className='newLine centerText pdTop'>
                             <Image className='max100' src={labManagerImg3} />
                         </span>
-                        <h5 className='centerText pdTop'>Search</h5>
+                        <h5 className='centerText pdTop'>PDF Printouts</h5>
                         <span className='centerText'>
-                            Search for new places and add them to your favorites
+                            You can also create PDF's for each lab overview
                         </span>
-                        <span className='newLine centerText pdTop'>
+                        <span className='newLine centerText pdTop pdBot'>
                             <Image className='max100' src={labManagerImg4} />
                         </span>
                     </Row>
