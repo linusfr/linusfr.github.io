@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from 'react'
 import { Container, Row, Image } from 'react-bootstrap'
 
@@ -36,7 +38,7 @@ export default class ProphyComponent extends Component {
                         <span className='newLine centerText pdTop'>
                             <Image className='max100' src={prophyImg} />
                         </span>
-                        <h5 className='centerText pdTop'>Preview for 5 day</h5>
+                        <h5 className='centerText pdTop'>Preview for 5 days</h5>
                         <span className='centerText'>
                             Weather for the next 5 days
                         </span>

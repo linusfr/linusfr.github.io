@@ -18,7 +18,7 @@ export default class HomeComponent extends Component {
                             information about me and about projects I worked on.
                         </span>
                     </Row>
-                    <Row className='pdTop'>
+                    <Row className='pdTop pdBot'>
                         <Col xs={20}>
                             <Image src={KiteImage} className='max100' />
                         </Col>

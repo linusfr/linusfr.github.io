@@ -25,10 +25,10 @@ export default class LabManagerComponent extends Component {
                         </div>
 
                         <span className='centerSpan'>
-                            The LabManager can be used to organize students
-                            using a .net Framework Desktop Application. You can
-                            create courses and fill it with labs. The labs can
-                            then be filled with students and managed.
+                            The LabManager can be used to organize students. The
+                            LabManager is a .net Framework Desktop Application.
+                            You can create courses and fill it with labs. The
+                            labs can then be filled with students and managed.
                         </span>
                         <h5 className='centerText pdTop'>Homepage</h5>
                         <span className='centerText'>
@@ -46,15 +46,16 @@ export default class LabManagerComponent extends Component {
                         </span>
                         <h5 className='centerText pdTop'>Lab Overview</h5>
                         <span className='centerText'>
-                            Displays all the students from the lab. Can be used
-                            to check attendances, tasks, or to edit students
+                            Displays all the students from the lab. Here you can
+                            check attendances and tasks or edit students
                         </span>
                         <span className='newLine centerText pdTop'>
                             <Image className='max100' src={labManagerImg3} />
                         </span>
                         <h5 className='centerText pdTop'>PDF Printouts</h5>
                         <span className='centerText'>
-                            You can also create PDF's for each lab overview
+                            You can also create PDF's for student informations,
+                            attendances or tasks
                         </span>
                         <span className='newLine centerText pdTop pdBot'>
                             <Image className='max100' src={labManagerImg4} />

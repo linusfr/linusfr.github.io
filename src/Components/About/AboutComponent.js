@@ -17,8 +17,8 @@ export default class AboutComponent extends Component {
                             During my study we had multiple bigger projects and
                             I wanted a place where I can show them to others,
                             thats how I ended up creating this website. Under
-                            Projects you can find the projects which pictures
-                            and short descriptions for each of them.
+                            projects you can find the projects with pictures and
+                            short descriptions for each of them.
                         </span>
                     </Row>
                     <Row className='pdTop'>
