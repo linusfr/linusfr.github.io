@@ -18,7 +18,11 @@ export default class ProjectsComponent extends Component {
                     <Container fluid>
                         <Row>
                             <Col>
-                                <Navbar bg='light' variant='light' expand='lg'>
+                                <Navbar
+                                    bg='light'
+                                    variant='light'
+                                    expand='true'
+                                >
                                     <Navbar.Toggle aria-controls='basic-navbar-nav' />
                                     <Navbar.Collapse id='basic-navbar-nav'>
                                         <Nav className='mr-auto center'>
