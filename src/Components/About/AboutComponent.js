@@ -12,20 +12,13 @@ export default class AboutComponent extends Component {
                     <Row className='dark flexColumn'>
                         <h4 className='centerText pdTop'>About</h4>
                         <span className='centerSpan pdTop'>
-                            Hello! I am Linus, nice to meet you!
-                        </span>
-                        <span className='centerSpan'>
-                            I am a computer science student studying in
-                            Flensburg, Germany.
-                        </span>
-                        <span className='centerSpan'>
+                            Hello! I am Linus, nice to meet you! I am a computer
+                            science student studying in Flensburg, Germany.
                             During my study we had multiple bigger projects and
                             I wanted a place where I can show them to others,
-                            thats how I ended up creating this website.
-                        </span>
-                        <span className='centerSpan'>
-                            Under Projects you can find the projects which
-                            pictures and short descriptions for each of them.
+                            thats how I ended up creating this website. Under
+                            Projects you can find the projects which pictures
+                            and short descriptions for each of them.
                         </span>
                     </Row>
                     <Row className='pdTop'>
@@ -43,7 +36,7 @@ export default class AboutComponent extends Component {
                             </div>
                             <div>
                                 <a
-                                    href='https://github.com/linosthology'
+                                    href='https://github.com/linusfr'
                                     class='fab fa-github widthPadding icons nostyle'
                                     target='_blank'
                                 ></a>

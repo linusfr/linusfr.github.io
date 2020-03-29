@@ -12,13 +12,10 @@ export default class HomeComponent extends Component {
                         <h4 className='centerText pdTop'>
                             Welcome to my Website!
                         </h4>
-                        <span className='centerText pdTop'>
+                        <span className='centerSpan pdTop'>
                             I am Linus, a computer science student studying in
-                            Flensburg, Germany.
-                        </span>
-                        <span className='centerText'>
-                            On here you can find more information about me and
-                            about projects I worked on.
+                            Flensburg, Germany. On here you can find more
+                            information about me and about projects I worked on.
                         </span>
                     </Row>
                     <Row className='pdTop'>

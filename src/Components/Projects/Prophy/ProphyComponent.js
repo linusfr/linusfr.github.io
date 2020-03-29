@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Nav, Image } from 'react-bootstrap'
+import { Container, Row, Image } from 'react-bootstrap'
 
 import prophyImg from '../../../Images/prophy.png'
 import prophyImg2 from '../../../Images/prophy2.png'
@@ -13,17 +13,20 @@ export default class ProphyComponent extends Component {
             <div>
                 <Container>
                     <Row className='dark newLine flexColumn'>
-                        <h5 className='centerText pdTop'>Prophy</h5>
-                        <span className='centerText'>
+                        <div className='flexRow center projectHeader pdTop'>
+                            <h5 className='centerText projectHeader'>Prophy</h5>
+                            <a
+                                href='https://github.com/linusfr/prophy'
+                                class='fab fa-github widthPadding nostyle projectHeader'
+                                target='_blank'
+                            ></a>
+                        </div>
+
+                        <span className='centerSpan'>
                             Prophy is a simple weather app using a weather api
                             and websockets. The websocket is used to synchronize
                             usage of the app over multiple browser instances. I
                             created Prophy as a paper for Web Technologies.
-                            <span className='newLine centerText pdTop'>
-                                <Nav.Link href='https://github.com/linosthology/prophy'>
-                                    Check out Prophy on Github
-                                </Nav.Link>
-                            </span>
                         </span>
                         <h5 className='centerText pdTop'>Homepage</h5>
                         <span className='centerText'>
