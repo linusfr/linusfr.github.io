@@ -31,13 +31,13 @@ export default class AboutComponent extends Component {
                             <div>
                                 <a
                                     href='mailto:linusfrotscher@gmail.com'
-                                    class='fas fa-envelope widthPadding icons nostyle'
+                                    className='fas fa-envelope widthPadding icons nostyle'
                                 ></a>
                             </div>
                             <div>
                                 <a
                                     href='https://github.com/linusfr'
-                                    class='fab fa-github widthPadding icons nostyle'
+                                    className='fab fa-github widthPadding icons nostyle'
                                     target='_blank'
                                 ></a>
                             </div>

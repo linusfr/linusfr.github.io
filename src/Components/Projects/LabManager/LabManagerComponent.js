@@ -6,12 +6,19 @@ import labManagerImg from '../../../Images/labManager.PNG'
 import labManagerImg2 from '../../../Images/labManager2.PNG'
 import labManagerImg3 from '../../../Images/labManager3.PNG'
 import labManagerImg4 from '../../../Images/labManager4.PNG'
+import { Link } from 'react-router-dom'
 
 export default class LabManagerComponent extends Component {
     render() {
         return (
             <div>
                 <Container>
+                    <Row>
+                        <Link
+                            to='/projects'
+                            className='fas fa-arrow-alt-circle-left backButton pdTop'
+                        ></Link>
+                    </Row>
                     <Row className='dark newLine flexColumn'>
                         <div className='flexRow center projectHeader pdTop'>
                             <h5 className='centerText projectHeader'>
@@ -19,7 +26,7 @@ export default class LabManagerComponent extends Component {
                             </h5>
                             <a
                                 href='https://github.com/linusfr/labManager'
-                                class='fab fa-github widthPadding nostyle projectHeader'
+                                className='fab fa-github widthPadding nostyle projectHeader'
                                 target='_blank'
                             ></a>
                         </div>

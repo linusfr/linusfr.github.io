@@ -87,16 +87,15 @@ a.nostyle:link {
     cursor: auto;
 }
 
-a.nostyle:hover {
-    text-decoration: inherit;
-    color: black;
-    cursor: pointer;
-}
-
 a.nostyle:visited {
     text-decoration: inherit;
     color: black;
     cursor: auto;
+}
+a.nostyle:hover {
+    text-decoration: inherit;
+    color: darkblue;
+    cursor: pointer;
 }
 
 .projectHeader {
@@ -110,4 +109,26 @@ a.nostyle:visited {
 }
 .card {
     margin: 20px;
+}
+.backButton {
+    float: left;
+    color: black;
+    width: 60%;
+    font-size: 35px;
+}
+.backButton:link {
+    text-decoration: inherit;
+    /* color: darkblue; */
+    cursor: auto;
+}
+
+.backButton:visited {
+    text-decoration: inherit;
+    color: black;
+    cursor: auto;
+}
+.backButton:hover {
+    text-decoration: inherit;
+    color: darkblue;
+    cursor: pointer;
 }

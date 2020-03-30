@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from 'react'
@@ -8,18 +9,25 @@ import prophyImg2 from '../../../Images/prophy2.png'
 import prophyImg3 from '../../../Images/prophy3.png'
 import prophyImg4 from '../../../Images/prophy4.png'
 import prophyImg5 from '../../../Images/prophy5.png'
+import { Link } from 'react-router-dom'
 
 export default class ProphyComponent extends Component {
     render() {
         return (
             <div>
                 <Container>
+                    <Row>
+                        <Link
+                            to='/projects'
+                            className='fas fa-arrow-alt-circle-left backButton pdTop'
+                        ></Link>
+                    </Row>
                     <Row className='dark newLine flexColumn'>
                         <div className='flexRow center projectHeader pdTop'>
                             <h5 className='centerText projectHeader'>Prophy</h5>
                             <a
                                 href='https://github.com/linusfr/prophy'
-                                class='fab fa-github widthPadding nostyle projectHeader'
+                                className='fab fa-github widthPadding nostyle projectHeader'
                                 target='_blank'
                             ></a>
                         </div>
