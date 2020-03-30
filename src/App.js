@@ -14,8 +14,11 @@ import {
 import HomeComponent from './Components/Home/HomeComponent'
 import AboutComponent from './Components/About/AboutComponent'
 import ProjectsComponent from './Components/Projects/ProjectsComponent'
+
 import Logo from './Images/logo.Bu9v87'
 import Image from 'react-bootstrap/Image'
+import ProphyComponent from './Components/Projects/Prophy/ProphyComponent'
+import LabManagerComponent from './Components/Projects/LabManager/LabManagerComponent'
 
 function App() {
     return (
@@ -45,25 +48,27 @@ function App() {
                             </Navbar>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col>
-                            <Switch>
-                                <Route path='/home'>
-                                    <HomeComponent />
-                                </Route>
-                                <Route path='/about'>
-                                    <AboutComponent />
-                                </Route>
-                                <Route path='/projects'>
-                                    <ProjectsComponent />
-                                </Route>
-                                <Route path='/'>
-                                    <Redirect to='/home' />
-                                </Route>
-                            </Switch>
-                        </Col>
-                    </Row>
                 </Container>
+                <Switch>
+                    <Route path='/home'>
+                        <HomeComponent />
+                    </Route>
+                    <Route path='/about'>
+                        <AboutComponent />
+                    </Route>
+                    <Route path='/prophy'>
+                        <ProphyComponent />
+                    </Route>
+                    <Route path='/labManager'>
+                        <LabManagerComponent />
+                    </Route>
+                    <Route path='/projects'>
+                        <ProjectsComponent />
+                    </Route>
+                    <Route path='/'>
+                        <Redirect to='/home' />
+                    </Route>
+                </Switch>
             </Router>
         </div>
     )

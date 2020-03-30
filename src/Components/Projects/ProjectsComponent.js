@@ -1,65 +1,48 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap'
-import {
-    BrowserRouter as Router,
-    Link,
-    Switch,
-    Route,
-    Redirect
-} from 'react-router-dom'
-import ProphyComponent from './Prophy/ProphyComponent'
-import LabManagerComponent from './LabManager/LabManagerComponent'
+import { Card } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export default class ProjectsComponent extends Component {
     render() {
         return (
             <div>
-                <Router>
-                    <Container fluid>
-                        <Row>
-                            <Col>
-                                <Navbar
-                                    bg='light'
-                                    variant='light'
-                                    expand='true'
-                                >
-                                    <Navbar.Toggle aria-controls='basic-navbar-nav' />
-                                    <Navbar.Collapse id='basic-navbar-nav'>
-                                        <Nav className='mr-auto center'>
-                                            <Nav.Link
-                                                as={Link}
-                                                to='/projects/prophy'
-                                            >
-                                                Prophy
-                                            </Nav.Link>
-                                            <Nav.Link
-                                                as={Link}
-                                                to='/projects/labManager'
-                                            >
-                                                LabManager
-                                            </Nav.Link>
-                                        </Nav>
-                                    </Navbar.Collapse>
-                                </Navbar>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col>
-                                <Switch>
-                                    <Route path='/projects/prophy'>
-                                        <ProphyComponent />
-                                    </Route>
-                                    <Route path='/projects/labManager'>
-                                        <LabManagerComponent />
-                                    </Route>
-                                    <Route path='/'>
-                                        <Redirect to='projects/prophy' />
-                                    </Route>
-                                </Switch>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Router>
+                <div className='pdTop centerSpan'>
+                    Here you can find multiple projects I worked on. Feel free
+                    to explore them! Each card shows briefly which technologies
+                    were used and what the project is about. For more details on
+                    any project just follow the link on each card.
+                </div>
+                <div className='pdTop center cards'>
+                    <Card style={{ width: '24rem' }} className='card'>
+                        <Card.Body>
+                            <Card.Title>Prophy</Card.Title>
+                            <Card.Subtitle className='mb-2 text-muted'>
+                                Vanilla Javascript Website
+                            </Card.Subtitle>
+                            <Card.Text>
+                                Prophy is a simple Weather App.
+                            </Card.Text>
+                            <Card.Link as={Link} to='/prophy'>
+                                Learn more about Prophy
+                            </Card.Link>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '24rem' }} className='card'>
+                        <Card.Body>
+                            <Card.Title>LabManager</Card.Title>
+                            <Card.Subtitle className='mb-2 text-muted'>
+                                .net Framework Desktop Application
+                            </Card.Subtitle>
+                            <Card.Text>
+                                The LabManager can be used to organize students
+                                in labs.
+                            </Card.Text>
+                            <Card.Link as={Link} to='/labManager'>
+                                Learn more about the LabManager
+                            </Card.Link>
+                        </Card.Body>
+                    </Card>
+                </div>
             </div>
         )
     }
