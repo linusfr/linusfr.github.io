@@ -106,6 +106,7 @@ a.nostyle:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .card {
     margin: 20px;
