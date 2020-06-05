@@ -8,7 +8,7 @@ import {
     Link,
     Switch,
     Route,
-    Redirect
+    Redirect,
 } from 'react-router-dom'
 
 import HomeComponent from './Components/Home/HomeComponent'
@@ -19,6 +19,7 @@ import Logo from './Images/logo.Bu9v87'
 import Image from 'react-bootstrap/Image'
 import ProphyComponent from './Components/Projects/Prophy/ProphyComponent'
 import LabManagerComponent from './Components/Projects/LabManager/LabManagerComponent'
+import IotComponent from './Components/Projects/IoT/IotComponent'
 
 function App() {
     return (
@@ -56,6 +57,13 @@ function App() {
                     <Route path='/about'>
                         <AboutComponent />
                     </Route>
+                    <Route path='/prophy'>
+                        <ProphyComponent />
+                    </Route>
+                    <Route path='/iot'>
+                        <IotComponent />
+                    </Route>
+
                     <Route path='/prophy'>
                         <ProphyComponent />
                     </Route>

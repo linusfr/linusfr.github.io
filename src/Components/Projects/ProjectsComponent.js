@@ -12,7 +12,23 @@ export default class ProjectsComponent extends Component {
                     were used and what the project is about. For more details on
                     any project just follow the link on each card.
                 </div>
+
                 <div className='pdTop center cards'>
+                    <Card style={{ width: '24rem' }} className='card'>
+                        <Card.Body>
+                            <Card.Title>IoT Parking Plattform</Card.Title>
+                            <Card.Subtitle className='mb-2 text-muted'>
+                                Iot Cloud
+                            </Card.Subtitle>
+                            <Card.Text>
+                                Simple tool which informs you when your favorite
+                                car parks are full.
+                            </Card.Text>
+                            <Card.Link as={Link} to='/iot'>
+                                Learn more about the IoT tool
+                            </Card.Link>
+                        </Card.Body>
+                    </Card>
                     <Card style={{ width: '24rem' }} className='card'>
                         <Card.Body>
                             <Card.Title>Prophy</Card.Title>
