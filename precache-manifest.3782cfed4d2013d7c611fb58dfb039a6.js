@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74b5300ed23b3c7665c2f5a2dff4567a",
+    "revision": "eae61e73e563518f281e17dd1e36f8ce",
     "url": "/index.html"
   },
   {
-    "revision": "5fc28c84d13fb5697907",
-    "url": "/static/css/main.8d722f03.chunk.css"
+    "revision": "fc99055c1bbbfcb4dbf8",
+    "url": "/static/css/main.501bf8aa.chunk.css"
   },
   {
-    "revision": "7f731af6dbe9206e35a0",
-    "url": "/static/js/2.77c7765d.chunk.js"
+    "revision": "e081a4ee1e6b848293e2",
+    "url": "/static/js/2.c85001b8.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.77c7765d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c85001b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5fc28c84d13fb5697907",
-    "url": "/static/js/main.05a1e6b4.chunk.js"
+    "revision": "fc99055c1bbbfcb4dbf8",
+    "url": "/static/js/main.36fece5e.chunk.js"
   },
   {
     "revision": "caf2a04453df4bace4e4",
     "url": "/static/js/runtime-main.009173a0.js"
+  },
+  {
+    "revision": "3a21a4f512f8fc8aa191393903b2d4fb",
+    "url": "/static/media/architecture.3a21a4f5.PNG"
+  },
+  {
+    "revision": "2d746d9704bfb1c7fcf30ea84e7a1042",
+    "url": "/static/media/grafana.2d746d97.PNG"
   },
   {
     "revision": "4d4b55fd254bd5aab4f981403344ffd2",
@@ -52,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.a1b30710.Bu9v87"
   },
   {
+    "revision": "b06fa7c92270f9acdc4041b4355bd48a",
+    "url": "/static/media/nodeRed.b06fa7c9.PNG"
+  },
+  {
     "revision": "0d8aed9664cf07709adade53aeed9793",
     "url": "/static/media/prophy.0d8aed96.png"
   },
@@ -70,5 +82,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e30a3e99b86b0337bdf5bb6a58174317",
     "url": "/static/media/prophy5.e30a3e99.png"
+  },
+  {
+    "revision": "793676d75dab80088ba5d87920008b6f",
+    "url": "/static/media/telegram.793676d7.PNG"
   }
 ]);
